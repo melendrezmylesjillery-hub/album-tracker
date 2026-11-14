@@ -5,6 +5,7 @@ import Discover from "./pages/Discover.jsx";
 import AlbumDetail from "./pages/AlbumDetail.jsx";
 import Collection from "./pages/Collection.jsx";
 import AiPicks from "./pages/AiPicks.jsx";
+
 export default function App() {
 const [page, setPage] = useState("discover");
 const [albumId, setAlbumId] = useState(null);
